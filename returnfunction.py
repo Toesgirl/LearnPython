@@ -19,3 +19,4 @@ def lazy_sum(*args):
     return sum()
 print(lazy_sum(1,2,3,4,5))
 
+

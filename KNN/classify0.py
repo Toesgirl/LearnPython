@@ -17,5 +17,5 @@ def classify0(inX,dataSet,labels,k):#定义了四个输入参数
 #以上是选择距离最小的ｋ个点，确定个点频率
     sortedClassCount=sorted(classCount.iteritems(),key=operator.itemgetter(1),reverse=True)
                                        #iteritems:迭代器，分解成元祖列表
-##　　　　　　　　　　　　　　　　　　　                       #operator.itemgetter:选择第２个元素排序
+##　　　　　　　　　　　　　　　　　　　                       #operator.itemgetter:选择第２个元素(value)排序
     return sortedClassCount[0][0]#返回频率最高的类别作为当前点的预测分类

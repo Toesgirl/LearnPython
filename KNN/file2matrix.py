@@ -1,7 +1,7 @@
 # coding=utf-8
 #将文本记录转换为ｎｕｍｐｙ的解析程序
 from numpy import *
-import operator
+
 def file2matrix(filename):
     fr=open(filename)#打开文件
     array0Lines=fr.readlines()#读取所有文件内容

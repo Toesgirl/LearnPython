@@ -20,3 +20,4 @@ def datingClassTest():
         ##                                                                    输出测试的标签     正确的标签
         if (classifierResult != datingLabels[i]): errorCount +=1.0#若两者不等，错误加一
     print ("the total error rate is: %f " %(errorCount/float(numTestVecs)))
+datingClassTest()

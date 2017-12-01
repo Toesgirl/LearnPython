@@ -30,7 +30,7 @@ def handwritingClassTest():
         classNumStr=int(fileStr.split('_')[0])
 #上三行代码得到测试样本的所有类别属性，用来核对算法的正确率
         vectorUnderTest=img2vector.img2vector('testDigits/%s' % fileNameStr)
-        classifierResult=classify0.classify0(vectorUnderTest,trainingMat,hwLabels,4)
+        classifierResult=classify0.classify0(vectorUnderTest,trainingMat,hwLabels,3)
 ##                                      　　　每行测试样本　　　　所有训练样本　　所有训练样本标签
         print("the classifier came back with: %d, the real answer is: %d" % (classifierResult,classNumStr))
         if (classifierResult != classNumStr): errorCount +=1.0

@@ -152,4 +152,4 @@ def mineTweets(tweetArr, minSup=5):
 #myFPtree, myHeaderTab = createTree(initSet, minSup)
 #myFPtree.disp()
 #myFreqList = []
-#mineTree(myFPtree, myHeaderTab, minSup, set([]), myFreqList)
+#mineTree(myFPtree, myHeaderTab, minSup, set([]), myFreqList)   qwet
